@@ -13,8 +13,8 @@ export class AppComponent implements OnInit {
   @ViewChild('gmap') gmapElement: any;
   items: string[] = [];
   mapCenter: ILanLng = {
-    lat: 18.5793,
-    lng: 73.8143
+    lat: 52.3157,
+    lng: 104.2659
   };
 
   constructor(private mapService: MapService) {
