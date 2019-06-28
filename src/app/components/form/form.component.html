@@ -1,0 +1,4 @@
+<form class="mb-3" #myForm="ngForm" (ngSubmit)="onSubmit()">
+  <label for="landmark">Добавить метку на карте</label>
+  <input type="text" class="form-control" id="landmark" name="item" [(ngModel)]="item" #input required>
+</form>

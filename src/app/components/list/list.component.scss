@@ -1,0 +1,15 @@
+.list-group-item {
+  display: flex;
+  align-items: center;
+}
+
+.remove {
+  margin-left: auto;
+  font-size: 0;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    color: indianred;
+  }
+}

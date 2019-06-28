@@ -1,0 +1,6 @@
+<ul class="list-group" cdkDropList (cdkDropListDropped)="onDrop($event)">
+  <li class="list-group-item list-group-item-action" *ngFor="let title of items; let i = index" cdkDrag>
+    {{ title }}
+    <span class="remove" (click)="onRemoveItem(i)"><i class="material-icons">clear</i></span>
+  </li>
+</ul>
